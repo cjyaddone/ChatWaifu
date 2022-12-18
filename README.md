@@ -22,10 +22,10 @@
 ## Run:
 'python ChatWaifu1.1.py'
 
-## 获取ChatGPT Token
-## 在浏览器登入https://chat.openai.com
-## 按F12进入开发控制台
-## 找到 应用程序 -> cookie -> __Secure-next-auth.session-token
-## 将值复制进入终端并回车
+### 获取ChatGPT Token
+### 在浏览器登入https://chat.openai.com
+### 按F12进入开发控制台
+### 找到 应用程序 -> cookie -> __Secure-next-auth.session-token
+### 将值复制进入终端并回车
 
-## 开始和CyberWaifu聊天
+### 开始和CyberWaifu聊天
