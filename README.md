@@ -18,7 +18,7 @@
 # 目录
 * [1.安装环境：](#1.)
 	* 1.1 [使用cd命令进入项目文件夹](#cd)
-	* 1.2 [创建Python虚拟环境:](#Python:)
+	* 1.2 [创建Python虚拟环境:](#Python)
 	* 1.3 [进入创建好的虚拟环境:](#venv)
 	* 1.4 [pip安装项目所需要的库文件:](#pip:)
 * [2.导入模型到根目录model文件夹（如果没有自行创建):](#.model)
@@ -35,7 +35,7 @@
 ### <span id="cd">1.1 使用cd命令进入项目文件夹</span>
 `cd 你的项目路径`
 ![](readme/5.png)
-### <span id="Python:">1.2 创建Python虚拟环境:</span>
+### <span id="Python">1.2 创建Python虚拟环境:</span>
 
 Conda:`conda create --name CyberWaifu python=3.10`
 ![](readme/1.png)
