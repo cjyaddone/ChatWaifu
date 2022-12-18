@@ -26,7 +26,7 @@
 * [3.运行（快和我的老婆们对话吧:](#22)
 	* 3.1 [获取ChatGPT Token](#ChatGPTToken)
 	* 3.2 [2.开始和CyberWaifu聊天](#CyberWaifu)
-* [4.鸣谢](#CyberWaifuthank)
+* [4.鸣谢](#915)
 ## <span id="1.">1.安装环境：</span>
 > **安装anaconda环境或Python>=3.7**
 > 
@@ -79,7 +79,7 @@ Google Drive:https://drive.google.com/file/d/1tMCafhnUoL7FbevVQ44VQi-WznDjt23_
 </video>
 
 
-## <span id="CyberWaifuthank">4.鸣谢：</span>
+## <span id="915">4.鸣谢：</span>
 - [MoeGoe_GUI]https://github.com/CjangCjengh/MoeGoe_GUI
 - [Pretrained models]https://github.com/CjangCjengh/TTSModels
 - [PyChatGPT]https://github.com/terry3041/pyChatGPT
