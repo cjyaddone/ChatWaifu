@@ -173,7 +173,7 @@ def generateSound(inputString):
                     text = inputString
                     if text == '[ADVANCED]':
                         #text = input('Raw text:')
-                        test = "我不会说"
+                        text = "我不会说"
                         #print('Cleaned text is:')
                         #ex_print(_clean_text(
                         #    text, hps_ms.data.text_cleaners), escape)
@@ -222,7 +222,7 @@ def generateSound(inputString):
                 choice = 't'
                 if choice == 't':
                     #text = input('Text to read: ')
-                    terxt = inputString
+                    text = inputString
                     if text == '[ADVANCED]':
                         #text = input('Raw text:')
                         text = "我不会说"
