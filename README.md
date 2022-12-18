@@ -54,7 +54,7 @@ Python:`.\chatWaifu\Scripts\activate.bat`
 `pip install -r requirement.txt`
 ![](readme/4.png)
 
-## <span id=".model">2.导入模型到根目录model文件夹（如果没有自行创建）:</span>
+## <span id=".model">2.导入模型到根目录model文件夹:</span>
 Google Drive:https://drive.google.com/file/d/1tMCafhnUoL7FbevVQ44VQi-WznDjt23_ 
 
 阿里云盘: https://www.aliyundrive.com/s/9JEj1mp1ZRv 提取码: m2y3
