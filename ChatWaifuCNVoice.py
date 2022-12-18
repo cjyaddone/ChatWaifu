@@ -104,9 +104,10 @@ def voice_input():
                 a = json.loads(rec.Result())
                 a = str(a['text'])
                 a = ''.join(a.split())
-                print(a)
-                user_input = a
-                return user_input
+                if(len(a) > 0):
+                    print(a)
+                    user_input = a
+                    return user_input
             if dump_fn is not None:
                 dump_fn.write(data)
 
@@ -421,10 +422,12 @@ if __name__ == "__main__":
     print(idmessage)
     peaker_id = input()
     while True:
-        resp = api.send_message(voice_input())
+        voice = voice_input()
+        resp = api.send_message(voice)
         answer = resp["message"].replace('\n','')
         print("ChatGPT:")
         print(answer)
         generateSound("[ZH]"+answer+"[ZH]")
         PlaySound(r'.\output.wav', flags=0)
+        voice = ""
     

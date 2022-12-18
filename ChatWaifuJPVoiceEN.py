@@ -106,9 +106,10 @@ def voice_input():
                 a = json.loads(rec.Result())
                 a = str(a['text'])
                 a = ''.join(a.split())
-                print(a)
-                user_input = a + " 使用日本语"
-                return user_input
+                if(len(a) > 0):
+                    print(a)
+                    user_input = a + " 使用日本语"
+                    return user_input
             if dump_fn is not None:
                 dump_fn.write(data)
 
