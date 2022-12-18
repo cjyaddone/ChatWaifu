@@ -7,20 +7,20 @@
 安装anaconda环境
 打开miniconda3终端
 
-创建虚拟python环境
+创建虚拟python环境:
 conda create --name CyberWaifu python=3.10
 等待虚拟环境创建完成
 
-进入创建好的虚拟环境
+进入创建好的虚拟环境:
 conda activate CyberWaifu
 
 使用cd命令进入项目文件夹
 cd 你的项目路径
 
-pip安装项目所需要的库文件
+pip安装项目所需要的库文件:
 pip install -r requirement.txt
 
-运行程序
+运行程序:
 python ChatWaifu1.1.py
 
 获取ChatGPT Token
