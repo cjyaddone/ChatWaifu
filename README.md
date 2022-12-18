@@ -72,11 +72,8 @@ Google Drive:https://drive.google.com/file/d/1tMCafhnUoL7FbevVQ44VQi-WznDjt23_/v
 #### 找到 应用程序 -> cookie -> __Secure-next-auth.session-token
 #### 将值复制进入终端并回车
 
-### <span id="444">3.2 开始和CyberWaifu聊天</span>
+### <span id="444">3.2 开始和CyberWaifu聊天！！！</span>
 
-<video width="640" height="480" controls>
-    <source src="readme/example.mp4" type="video/mp4">
-</video>
 
 
 ## <span id="915">4.鸣谢：</span>
