@@ -1,4 +1,4 @@
-# <center><font color=#FFB6C1 size=7>CyberWaifu</font>
+# <p align="center">CyberWaifu</p>
 [中文](README.md "中文") [English](eng-README.md "English") [日本語](jp-README.md "日本語")
 
 > ### 这是一个基于TTS+VITS的ChatGPT语音对话程序!
