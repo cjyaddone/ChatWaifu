@@ -339,6 +339,8 @@ def generateSound(inputString):
 if __name__ == "__main__":
     session_token = get_token()
     api = ChatGPT(session_token)
+    print(idmessage)
+    peaker_id = input()
     while True:
         resp = api.send_message(get_input())
         answer = resp["message"].replace('\n','')
