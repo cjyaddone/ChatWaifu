@@ -24,8 +24,8 @@
 * [2.导入模型到根目录model文件夹（如果没有自行创建):](#.model)
 	* 2.1 [双击导入model](#cd1)
 * [3.运行（快和我的老婆们对话吧:](#22)
-	* 3.1 [获取ChatGPT Token](#ChatGPTToken)
-	* 3.2 [2.开始和CyberWaifu聊天](#CyberWaifu)
+	* 3.1 [获取ChatGPT Token](#333)
+	* 3.2 [2.开始和CyberWaifu聊天](#444)
 * [4.鸣谢](#915)
 ## <span id="1.">1.安装环境：</span>
 > **安装anaconda环境或Python>=3.7**
@@ -66,13 +66,13 @@ Google Drive:https://drive.google.com/file/d/1tMCafhnUoL7FbevVQ44VQi-WznDjt23_
 
 中文版：`python ChatWaifuCN.py`
 
-### <span id="ChatGPTToken">3.1 获取ChatGPT Token</span>
+### <span id="333">3.1 获取ChatGPT Token</span>
 #### 在浏览器登入https://chat.openai.com
 #### 按F12进入开发控制台
 #### 找到 应用程序 -> cookie -> __Secure-next-auth.session-token
 #### 将值复制进入终端并回车
 
-### <span id="CyberWaifu">3.2 开始和CyberWaifu聊天</span>
+### <span id="444">3.2 开始和CyberWaifu聊天</span>
 
 <video width="640" height="480" controls>
     <source src="readme/example.mp4" type="video/mp4">
