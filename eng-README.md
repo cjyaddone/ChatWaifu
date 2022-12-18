@@ -74,6 +74,9 @@ Chinese voice conversation Ver(use Chinese)：`python ChatWaifuCNVoice.py`
 
 Japanese voice conversation Ver(use English)：`python ChatWaifuJPVoiceEN.py`
 
+Japanese voice conversation Ver(use Japanese)：`python ChatWaifuJPVoiceJP.py`
+
+
 ### <span id="333">3.1 Get ChatGPT Token</span>
 #### Log in to ChatGPT whith link:https://chat.openai.com
 #### Press F12 to enter command center
