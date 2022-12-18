@@ -62,7 +62,7 @@ Google Drive:https://drive.google.com/file/d/1tMCafhnUoL7FbevVQ44VQi-WznDjt23_/v
 ### <span id="cd1">2.1Double click model.exe to import Models</span>
 
 ## <span id="22">3.RUN（Start chatting with CyberWaifu:</span>
-Japanese Ver：`python ChatWaifu1.1.py`
+Japanese Ver：`python ChatWaifuJP.py`
 
 Chinese Ver：`python ChatWaifuCN.py`
 
