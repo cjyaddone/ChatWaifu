@@ -45,6 +45,7 @@ Python:`python -m venv chatWaifu`
 
 ### <span id="venv">1.3 Activate created venv:</span>
 Conda:`conda activate chatWaifu`
+
 ![](readme/3.png)
 
 Python:`.\chatWaifu\Scripts\activate.bat`
