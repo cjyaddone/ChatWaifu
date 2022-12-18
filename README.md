@@ -1,7 +1,7 @@
 # Links
 - [MoeGoe_GUI](https://github.com/CjangCjengh/MoeGoe_GUI)
 - [Pretrained models](https://github.com/CjangCjengh/TTSModels)
--[PyChatGPT]https://github.com/terry3041/pyChatGPT
+- [PyChatGPT]https://github.com/terry3041/pyChatGPT
 
 #Installation
 安装anaconda环境
