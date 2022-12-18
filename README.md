@@ -20,10 +20,10 @@
 	* 1.1 [使用cd命令进入项目文件夹](#cd)
 	* 1.2 [创建Python虚拟环境:](#Python)
 	* 1.3 [进入创建好的虚拟环境:](#venv)
-	* 1.4 [pip安装项目所需要的库文件:](#pip:)
+	* 1.4 [pip安装项目所需要的库文件:](#pip)
 * [2.导入模型到根目录model文件夹（如果没有自行创建):](#.model)
 	* 2.1 [双击导入model](#cd1)
-* [3.运行（快和我的老婆们对话吧:](#.:)
+* [3.运行（快和我的老婆们对话吧:](#22)
 	* 3.1 [获取ChatGPT Token](#ChatGPTToken)
 	* 3.2 [2.开始和CyberWaifu聊天](#CyberWaifu)
 * [4.鸣谢](#CyberWaifuthank)
@@ -50,7 +50,7 @@ Conda:`conda activate chatWaifu`
 Python:`.\chatWaifu\Scripts\activate.bat`
 ![](readme/7.png)
 
-### <span id="pip:">1.4 pip安装项目所需要的库文件:</span>
+### <span id="pip">1.4 pip安装项目所需要的库文件:</span>
 `pip install -r requirement.txt`
 ![](readme/4.png)
 
@@ -61,7 +61,7 @@ Google Drive:https://drive.google.com/file/d/1tMCafhnUoL7FbevVQ44VQi-WznDjt23_
 
 ### <span id="cd1">2.1移动到项目根目录下双击导入model</span>
 
-## <span id=".:">3.运行（快和老婆们对话吧:</span>
+## <span id="22">3.运行（快和老婆们对话吧:</span>
 日语版：`python ChatWaifu1.1.py`
 
 中文版：`python ChatWaifuCN.py`
