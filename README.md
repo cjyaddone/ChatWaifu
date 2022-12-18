@@ -61,7 +61,7 @@ Google Drive:https://drive.google.com/file/d/1tMCafhnUoL7FbevVQ44VQi-WznDjt23_
 
 ### <span id="cd1">2.1移动到项目根目录下双击导入model</span>
 
-## <span id=".:">3.运行（快和我的老婆们对话吧:</span>
+## <span id=".:">3.运行（快和老婆们对话吧:</span>
 日语版：`python ChatWaifu1.1.py`
 
 中文版：`python ChatWaifuCN.py`
