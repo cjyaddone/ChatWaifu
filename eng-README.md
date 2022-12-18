@@ -9,9 +9,9 @@ Effect demonstration BiliBIli:[《青春猪头少年不会梦见赛博女友》]
 * [x] Talking with ChatGPT
 * [x] Convert AI's Response to wav file
 * [x] Multi-Character voice generator
+* [x] Voice Recognition
 
 **Under Construction：**
-* [ ] Voice Recognition 
 * [ ] Connect to Live2D
 * [ ] Connect to Marai Robort
 
@@ -68,6 +68,12 @@ Japanese Ver：`python ChatWaifuJP.py`
 
 Chinese Ver：`python ChatWaifuCN.py`
 
+Japanese voice conversation Ver(use Chinese)：`python ChatWaifuJPVoice.py`
+
+Chinese voice conversation Ver(use Chinese)：`python ChatWaifuCNVoice.py`
+
+Japanese voice conversation Ver(use English)：`python ChatWaifuJPVoiceEN.py`
+
 ### <span id="333">3.1 Get ChatGPT Token</span>
 #### Log in to ChatGPT whith link:https://chat.openai.com
 #### Press F12 to enter command center
@@ -76,10 +82,7 @@ Chinese Ver：`python ChatWaifuCN.py`
 
 ### <span id="444">3.2 Start chatting with CyberWaifu</span>
 
-<video width="640" height="480" controls>
-    <source src="readme/example.mp4" type="video/mp4">
-</video>
-
+Start talking when the console prompts "You:" and then the sentence is recorded and sent to the ChatGPT conversation. 
 
 ## <span id="915">4.Contribution：</span>
 - [MoeGoe_GUI]https://github.com/CjangCjengh/MoeGoe_GUI

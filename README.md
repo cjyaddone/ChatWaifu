@@ -9,9 +9,9 @@
 * [x] ChatGPT的对话聊天
 * [x] 回答转语音
 * [x] 多角色语音
+* [x] 语音识别对话 (研发了一款真正人性化的智能语音Q宝
 
 **预计支持功能：**
-* [ ] 语音识别对话 (研发了一款真正人性化的智能语音Q宝
 * [ ] 对接Live2D的Web版本
 * [ ] 对接Marai机器人
 
@@ -62,9 +62,14 @@ Google Drive:https://drive.google.com/file/d/1tMCafhnUoL7FbevVQ44VQi-WznDjt23_/v
 ### <span id="cd1">2.1移动到项目根目录下双击导入model</span>
 
 ## <span id="22">3.运行（快和老婆们对话吧:</span>
+
 日语版：`python ChatWaifuJP.py`
 
 中文版：`python ChatWaifuCN.py`
+
+日语语音对话版（使用中文）：`python ChatWaifuJPVoice.py`
+
+中文语音对话版（使用中文）：`python ChatWaifuCNVoice.py`
 
 ### <span id="333">3.1 获取ChatGPT Token</span>
 #### 在浏览器登入https://chat.openai.com
@@ -74,6 +79,7 @@ Google Drive:https://drive.google.com/file/d/1tMCafhnUoL7FbevVQ44VQi-WznDjt23_/v
 
 ### <span id="444">3.2 开始和CyberWaifu聊天！！！</span>
 
+当控制台提示"You:"时开始说话，说完并出现句子录音结束并发送到ChatGPT对话。
 
 
 ## <span id="915">4.鸣谢：</span>
