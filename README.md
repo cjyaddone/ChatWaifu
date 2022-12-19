@@ -89,6 +89,7 @@ Google Drive:https://drive.google.com/file/d/1tMCafhnUoL7FbevVQ44VQi-WznDjt23_/v
 #### 在浏览器登入https://chat.openai.com
 #### 按F12进入开发控制台
 #### 找到 应用程序 -> cookie -> __Secure-next-auth.session-token
+![](readme/token.png)
 #### 将值复制进入终端并回车
 
 ### <span id="444">3.2 开始和CyberWaifu聊天！！！</span>
