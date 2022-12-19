@@ -25,7 +25,7 @@ Effect demonstration BiliBIli:[《青春猪头少年不会梦见赛博女友》]
 	* 2.1 [Double click model.exe to import Models](#cd1)
 * [3.Run（Talk to your Waifu:](#22)
 	* 3.1 [Get ChatGPT Token](#333)
-	* 3.2 [2.Start chatting with CyberWaifu](#444)
+	* 3.2 [Start chatting with CyberWaifu](#444)
 * [4.Contributions](#915)
 ## <span id="1.">1.Install Python Venv：</span>
 > **Install Anaconda or Python>=3.7**
