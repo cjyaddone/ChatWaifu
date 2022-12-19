@@ -10,7 +10,7 @@
 
 #
 
-### 这是一个基于TTS+VITS的ChatGPT语音对话程序!
+### 这是一个使用TTS+VITS的ChatGPT语音对话程序!
 
 效果演示BiliBIli:[《青春猪头少年不会梦见赛博女友》](https://www.bilibili.com/video/BV1rv4y1Q7eT "BiliBili")
 
