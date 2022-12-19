@@ -1,14 +1,16 @@
 ![cover](readme/cyberchat.png)
 
+[中文](README.md "中文") [English](eng-README.md "English") [日本語](jp-README.md "日本語")
+
 <p align="center">
 	<img alt="GitHub" src="https://img.shields.io/github/license/cjyaddone/ChatWaifu?color=red">
 	<img src="https://img.shields.io/badge/Python-3.7|8|9|10-green" alt="PYTHON" >
   	<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fcjyaddone%2FChatWaifu?ref=badge_small" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcjyaddone%2FChatWaifu.svg?type=small"/></a>
 </p>
 
-[中文](README.md "中文") [English](eng-README.md "English") [日本語](jp-README.md "日本語")
+#
 
-> ### 这是一个基于TTS+VITS的ChatGPT语音对话程序!
+### 这是一个基于TTS+VITS的ChatGPT语音对话程序!
 
 效果演示BiliBIli:[《青春猪头少年不会梦见赛博女友》](https://www.bilibili.com/video/BV1rv4y1Q7eT "BiliBili")
 
