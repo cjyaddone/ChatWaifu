@@ -1,4 +1,4 @@
-![cover](readme/cyber.png)
+![cover](readme/cyberchat.png)
 
 <p align="center">
 	<img alt="GitHub" src="https://img.shields.io/github/license/cjyaddone/ChatWaifu?color=red">
