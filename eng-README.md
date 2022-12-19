@@ -90,7 +90,7 @@ Japanese voice conversation Ver(use Japanese)：`python ChatWaifuJPVoiceJP.py`
 #### Log in to ChatGPT whith link:https://chat.openai.com
 #### Press F12 to enter command center
 #### Find Application -> cookie -> __Secure-next-auth.session-token
-![](readme/7.png)
+![](readme/token.png)
 #### Copy the value into cmd and press ENTER
 
 ### <span id="444">3.2 Start chatting with CyberWaifu</span>
