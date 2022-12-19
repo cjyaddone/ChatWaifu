@@ -60,7 +60,7 @@ Python:`.\chatWaifu\Scripts\activate.bat`
 ![](readme/7.png)
 
 ### <span id="pip">1.4 Install required library with Pip:</span>
-`pip install -r requirement.txt`
+`pip install -r requirements.txt`
 ![](readme/4.png)
 
 ## <span id=".model">2.import pre-trained models to root directory:</span>
