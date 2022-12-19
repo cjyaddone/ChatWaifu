@@ -10,10 +10,10 @@ Effect demonstration BiliBIli:[《青春猪头少年不会梦见赛博女友》]
 * [x] Convert AI's Response to wav file
 * [x] Multi-Character voice generator
 * [x] Voice Recognition
+* [x] [Connect to Marai Robort](https://github.com/MuBai-He/ChatWaifu-marai)
 
 **Under Construction：**
 * [ ] Connect to Live2D
-* [ ] Connect to Marai Robort
 
 # Catalogue
 * [1.Install Python venv：](#1.)
@@ -59,7 +59,7 @@ Python:`.\chatWaifu\Scripts\activate.bat`
 ## <span id=".model">2.import pre-trained models to root directory:</span>
 Google Drive:https://drive.google.com/file/d/1tMCafhnUoL7FbevVQ44VQi-WznDjt23_/view?usp=sharing
 
-阿里云盘: https://www.aliyundrive.com/s/9JEj1mp1ZRv 提取码: m2y3
+Ali Drive: https://www.aliyundrive.com/s/9JEj1mp1ZRv 提取码: m2y3
 
 ### <span id="cd1">2.1Double click model.exe to import Models</span>
 
