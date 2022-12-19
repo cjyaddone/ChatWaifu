@@ -1,4 +1,6 @@
 # <p align="center">CyberWaifu</p>
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcjyaddone%2FChatWaifu.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcjyaddone%2FChatWaifu?ref=badge_shield)
+
 [中文](README.md "中文") [English](eng-README.md "English") [日本語](jp-README.md "日本語")
 
 > ### 这是一个基于TTS+VITS的ChatGPT语音对话程序!
@@ -91,3 +93,7 @@ Google Drive:https://drive.google.com/file/d/1tMCafhnUoL7FbevVQ44VQi-WznDjt23_/v
 - [MoeGoe_GUI]https://github.com/CjangCjengh/MoeGoe_GUI
 - [Pretrained models]https://github.com/CjangCjengh/TTSModels
 - [PyChatGPT]https://github.com/terry3041/pyChatGPT
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcjyaddone%2FChatWaifu.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcjyaddone%2FChatWaifu?ref=badge_large)
