@@ -1,7 +1,16 @@
-# <p align="center">CyberWaifu</p>
+![cover](readme/cyberchat.png)
+
 [中文](README.md "中文") [English](eng-README.md "English") [日本語](jp-README.md "日本語")
 
-> ### 这是一个基于TTS+VITS的ChatGPT语音对话程序!
+<p align="center">
+	<img alt="GitHub" src="https://img.shields.io/github/license/cjyaddone/ChatWaifu?color=red">
+	<img src="https://img.shields.io/badge/Python-3.7|8|9|10-green" alt="PYTHON" >
+  	<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fcjyaddone%2FChatWaifu?ref=badge_small" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcjyaddone%2FChatWaifu.svg?type=small"/></a>
+</p>
+
+#
+
+### 这是一个使用TTS+VITS的ChatGPT语音对话程序!
 
 效果演示BiliBIli:[《青春猪头少年不会梦见赛博女友》](https://www.bilibili.com/video/BV1rv4y1Q7eT "BiliBili")
 
@@ -10,10 +19,11 @@
 * [x] 回答转语音
 * [x] 多角色语音
 * [x] 语音识别对话 (研发了一款真正人性化的智能语音Q宝
+* [x] [对接Marai机器人](https://github.com/MuBai-He/ChatWaifu-marai)
 
 **预计支持功能：**
 * [ ] 对接Live2D的Web版本
-* [ ] 对接Marai机器人
+
 
 # 目录
 * [1.安装环境：](#1.)
@@ -25,7 +35,7 @@
 	* 2.1 [双击导入model](#cd1)
 * [3.运行（快和我的老婆们对话吧:](#22)
 	* 3.1 [获取ChatGPT Token](#333)
-	* 3.2 [2.开始和CyberWaifu聊天](#444)
+	* 3.2 [开始和CyberWaifu聊天](#444)
 * [4.鸣谢](#915)
 ## <span id="1.">1.安装环境：</span>
 > **安装anaconda环境或Python>=3.7**
@@ -37,7 +47,7 @@
 ![](readme/5.png)
 ### <span id="99">1.2 创建Python虚拟环境:</span>
 
-Conda:`conda create --name CyberWaifu python=3.10`
+Conda:`conda create --name chatWaifu python=3.10`
 ![](readme/1.png)
 ![](readme/2.png)
 Python:`python -m venv chatWaifu`
@@ -51,7 +61,7 @@ Python:`.\chatWaifu\Scripts\activate.bat`
 ![](readme/7.png)
 
 ### <span id="pip">1.4 pip安装项目所需要的库文件:</span>
-`pip install -r requirement.txt`
+`pip install -r requirements.txt`
 ![](readme/4.png)
 
 ## <span id=".model">2.导入模型到根目录model文件夹:</span>
@@ -79,6 +89,7 @@ Google Drive:https://drive.google.com/file/d/1tMCafhnUoL7FbevVQ44VQi-WznDjt23_/v
 #### 在浏览器登入https://chat.openai.com
 #### 按F12进入开发控制台
 #### 找到 应用程序 -> cookie -> __Secure-next-auth.session-token
+![](readme/token.png)
 #### 将值复制进入终端并回车
 
 ### <span id="444">3.2 开始和CyberWaifu聊天！！！</span>
