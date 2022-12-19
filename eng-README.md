@@ -46,7 +46,7 @@ Effect demonstration BiliBIli:[《青春猪头少年不会梦见赛博女友》]
 ![](readme/5.png)
 ### <span id="99">1.2 Create Python Venv:</span>
 
-Conda:`conda create --name CyberWaifu python=3.10`
+Conda:`conda create --name chatWaifu python=3.10`
 ![](readme/1.png)
 ![](readme/2.png)
 
