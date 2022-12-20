@@ -94,7 +94,7 @@ Google Drive:https://drive.google.com/file/d/1tMCafhnUoL7FbevVQ44VQi-WznDjt23_/v
 
 ### <span id="444">3.2 开始和CyberWaifu聊天！！！</span>
 
-语音对话版：当控制台提示"You:"时开始说话，说完并出现句子录音结束并发送到ChatGPT对话。
+**语音对话版:** 当控制台提示"You:"时开始说话，说完并出现句子录音结束并发送到ChatGPT对话。
 
 附赠:[ChatGPT 中文调教指南](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
 
