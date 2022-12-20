@@ -95,7 +95,7 @@ Japanese voice conversation Ver(use Japanese)：`python ChatWaifuJPVoiceJP.py`
 
 ### <span id="444">3.2 Start chatting with CyberWaifu</span>
 
-voice conversation Ver:Start talking when the console prompts "You:" and then the sentence is recorded and sent to the ChatGPT conversation. 
+**voice conversation Ver:**Start talking when the console prompts "You:" and then the sentence is recorded and sent to the ChatGPT conversation. 
 
 ## <span id="915">4.Contribution：</span>
 - [MoeGoe_GUI]https://github.com/CjangCjengh/MoeGoe_GUI
