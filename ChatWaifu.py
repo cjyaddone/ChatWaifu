@@ -20,18 +20,27 @@ japanese_config_path = ".\model\config.json"
 from pyChatGPT import ChatGPT
 import json
 
-modelmessage = """ID      Model
+modelmessage = """ID      Output Language
 0       Chinese
 1       Japanese
 """
 
-idmessage = """ID      Speaker
+idmessage_cn = """ID      Speaker
 0       綾地寧々
 1       在原七海
 2       小茸
 3       唐乐吟
 """
-speakerID = 0
+
+idmessage_jp = """ID      Speaker
+0       綾地寧々
+1       因幡めぐる
+2       朝武芳乃
+3       常陸茉子
+4       ムラサメ
+5       鞍馬小春
+6       在原七海
+"""
 
 def get_input():
     # prompt for input
@@ -192,8 +201,12 @@ if __name__ == "__main__":
     api = ChatGPT(session_token)
     print(modelmessage)
     model_id = int(input('选择回复语言: '))
-    print("\n" + idmessage)
-    id = get_speaker_id('选择角色: ')
+    if model_id == 0:
+        print("\n" + idmessage_cn)
+        id = get_speaker_id('选择角色: ')
+    elif model_id == 1:
+        print("\n" + idmessage_jp)
+        id = get_speaker_id('选择角色: ')
     print()
     while True:
 
