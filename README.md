@@ -73,17 +73,9 @@ Google Drive:https://drive.google.com/file/d/1tMCafhnUoL7FbevVQ44VQi-WznDjt23_/v
 
 ## <span id="22">3.运行（快和老婆们对话吧:</span>
 
-日语版：`python ChatWaifuJP.py`
+打字输入版：`python ChatWaifu.py`
 
-中文版：`python ChatWaifuCN.py`
-
-日语语音对话版（使用中文）：`python ChatWaifuJPVoice.py`
-
-中文语音对话版（使用中文）：`python ChatWaifuCNVoice.py`
-
-中文语音对话版（使用英文）：`python ChatWaifuCNVoiceEN.py`
-
-日语语音对话版（使用日文）：`python ChatWaifuJPVoiceJP.py`
+语音对话版（日语和英语输入默认日语输出）：`python ChatWaifuVoice.py`
 
 ### <span id="333">3.1 获取ChatGPT Token</span>
 #### 在浏览器登入https://chat.openai.com
