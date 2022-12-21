@@ -12,7 +12,7 @@
 
 > ### This is a chatting Waifu program use VITS & ChatGPT!
 
-Effect demonstration BiliBIli:[《青春猪头少年不会梦见赛博女友》](https://www.bilibili.com/video/BV1rv4y1Q7eT "BiliBili")
+Effect demonstration on BiliBIli:[《青春猪头少年不会梦见赛博女友》](https://www.bilibili.com/video/BV1rv4y1Q7eT "BiliBili")
 
 **Functioning Now：**
 * [x] Talking with ChatGPT
@@ -25,6 +25,7 @@ Effect demonstration BiliBIli:[《青春猪头少年不会梦见赛博女友》]
 * [ ] Connect to Live2D
 
 # Catalogue
+### This project assumes that you are using chrome explorer
 * [1.Install Python venv：](#1.)
 	* 1.1 [Enter directory with cd commend](#cd)
 	* 1.2 [Create Python Venv:](#99)
