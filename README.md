@@ -77,6 +77,20 @@ Google Drive:https://drive.google.com/file/d/1tMCafhnUoL7FbevVQ44VQi-WznDjt23_/v
 
 语音对话版（日语和英语输入默认日语输出）：`python ChatWaifuVoice.py`
 
+### 以下也可以使用，每个文件只对应一种语音输出输入模式
+
+打字日语版：`python ChatWaifuJP.py`
+
+打字中文版：`python ChatWaifuCN.py`
+
+日语语音对话版（使用中文）：`python ChatWaifuJPVoice.py`
+
+中文语音对话版（使用中文）：`python ChatWaifuCNVoice.py`
+
+日文语音对话版（使用英文）：`python ChatWaifuJPVoiceEN.py`
+
+日语语音对话版（使用日文）：`python ChatWaifuJPVoiceJP.py`
+
 ### <span id="333">3.1 获取ChatGPT Token</span>
 #### 在浏览器登入https://chat.openai.com
 #### 按F12进入开发控制台
