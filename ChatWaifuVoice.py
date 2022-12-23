@@ -172,7 +172,7 @@ def voice_input_jpjp():
             if dump_fn is not None:
                 dump_fn.write(data)
 
-def voice_input_encn():
+def voice_input_enjp():
     model = Model(lang="en-us")
     print("You:")
     with sd.RawInputStream(samplerate=args.samplerate, blocksize=8000, device=args.device,
@@ -199,17 +199,7 @@ def get_token():
 
       
 ################################################
-
-
 logging.getLogger('numba').setLevel(logging.WARNING)
-
-
-def ex_print(text, escape=False):
-    if escape:
-        print(text.encode('unicode_escape').decode())
-    else:
-        print(text)
-
 
 def get_text(text, hps, cleaned=False):
     if cleaned:
@@ -220,24 +210,6 @@ def get_text(text, hps, cleaned=False):
         text_norm = commons.intersperse(text_norm, 0)
     text_norm = LongTensor(text_norm)
     return text_norm
-
-
-def ask_if_continue():
-    while True:
-        answer = input('Continue? (y/n): ')
-        if answer == 'y':
-            break
-        elif answer == 'n':
-            sys.exit(0)
-
-
-def print_speakers(speakers, escape=False):
-    if len(speakers) > 100:
-        return
-    print('ID\tSpeaker')
-    for id, name in enumerate(speakers):
-        ex_print(str(id) + '\t' + name, escape)
-
 
 def get_speaker_id(message):
     speaker_id = input(message)
@@ -405,7 +377,7 @@ if __name__ == "__main__":
             generateSound(answer, id, model_id)
             PlaySound(r'.\output.wav', flags=0)
         elif language_id == 2: #input=en output=jp
-            resp = api.send_message(voice_input_encn())
+            resp = api.send_message(voice_input_enjp())
             answer = resp["message"].replace('\n','')
             print("ChatGPT:")
             print(answer)
