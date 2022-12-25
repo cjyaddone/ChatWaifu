@@ -10,7 +10,7 @@
 
 #
 
-> ### This is a chatting Waifu program use VITS & ChatGPT!
+> ### This is a chatting Waifu program using VITS & ChatGPT!
 
 Effect demonstration on BiliBIli:[《青春猪头少年不会梦见赛博女友》](https://www.bilibili.com/video/BV1rv4y1Q7eT "BiliBili")
 
@@ -20,9 +20,7 @@ Effect demonstration on BiliBIli:[《青春猪头少年不会梦见赛博女友�
 * [x] Multi-Character voice generator
 * [x] Voice Recognition
 * [x] [Connect to Marai Robort](https://github.com/MuBai-He/ChatWaifu-marai)
-
-**Under Construction：**
-* [ ] Connect to Live2D
+* [x] [Connect to Live2D](https://github.com/MuBai-He/ChatWaifuL2D)
 
 # Catalogue
 ### This project assumes that you are using chrome explorer
