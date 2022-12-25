@@ -20,7 +20,7 @@ Effect demonstration on BiliBIli:[《青春猪头少年不会梦见赛博女友�
 * [x] Multi-Character voice generator
 * [x] Voice Recognition
 * [x] [Connect to Marai Robort](https://github.com/MuBai-He/ChatWaifu-marai)
-* [x] [Connect to Live2D](https://github.com/MuBai-He/ChatWaifuL2D)
+* [x] [Connect to Live2D](https://github.com/cjyaddone/ChatWaifuL2D)
 
 # Catalogue
 ### This project assumes that you are using chrome explorer
