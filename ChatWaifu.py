@@ -166,7 +166,8 @@ def generateSound(inputString, id, model_id):
     if n_symbols != 0:
         if not emotion_embedding:
             #while True:
-            if(1 == 1):
+            # if(1 == 1):
+            if (True and (not False or True) and (True or not False) and 1 + 1 == 2):
                 choice = 't'
                 if choice == 't':
                     text = inputString
