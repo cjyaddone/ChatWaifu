@@ -13,8 +13,9 @@ import logging
 import sounddevice as sd
 from winsound import PlaySound
 from vosk import Model, KaldiRecognizer
-
-
+import requests
+import time
+from pathlib import Path
 q = queue.Queue()
 def int_or_str(text):
     """Helper function for argument parsing."""
@@ -23,7 +24,10 @@ def int_or_str(text):
     except ValueError:
         return text
 
-
+def playSound():
+    PlaySound(r'.\output.wav', flags=1)
+    
+    
 def callback(indata, frames, time, status):
     """This is called (from a separate thread) for each audio block."""
     if status:
@@ -117,7 +121,33 @@ def get_token():
 
 logging.getLogger('numba').setLevel(logging.WARNING)
 
+import openai
 
+# 准备请求数据
+model_engine = "text-davinci-003"
+prompt = '''
+
+'''
+def chatgpt(question):
+    global prompt
+    input_message = question
+    prompt += input_message + "\n"
+    prompt += input_message + "\n"
+    # get reply from ChatGPT
+    completions = openai.Completion.create(
+        model=model_engine,
+        prompt=prompt,
+        temperature=0.9,
+        max_tokens=1024,
+        top_p=1
+    )
+
+    # output to terminal
+    prompt += completions.choices[0].text + "\n\n"
+    prompt += completions.choices[0].text + "\n\n"
+    return completions.choices[0].text
+    
+    
 def ex_print(text, escape=False):
     if escape:
         print(text.encode('unicode_escape').decode())
@@ -184,8 +214,9 @@ def get_label(text, label):
         return False, text
 
 
+import os
 
-def generateSound(inputString):
+def generateSound(inputString, callback=playSound):
     if '--escape' in sys.argv:
         escape = True
     else:
@@ -195,8 +226,7 @@ def generateSound(inputString):
     #config = input('Path of a config file: ')
     model = r".\model\CN\model.pth"
     config = r".\model\CN\config.json"
-        
-
+    
     hps_ms = utils.get_hparams_from_file(config)
     n_speakers = hps_ms.data.n_speakers if 'n_speakers' in hps_ms.data.keys() else 0
     n_symbols = len(hps_ms.symbols) if 'symbols' in hps_ms.keys() else 0
@@ -213,6 +243,21 @@ def generateSound(inputString):
         **hps_ms.model)
     _ = net_g_ms.eval()
     utils.load_checkpoint(model, net_g_ms)
+    
+    with open('.\\temp.txt', 'w', encoding='utf-8') as f:
+        f.write(inputString)
+    with open('.\\temp.txt', 'r', encoding='utf-8') as f:
+        text = f.read()
+        
+    file_path = Path('.\\output.wav')
+    if file_path.exists():
+        # 删除文件
+        file_path.unlink()
+    if callback is not None:
+        callback()
+    print("text: ", text)
+    print("playSound: ", playSound)
+
 
     def voice_conversion():
         audio_path = input('Path of an audio file to convert:\n')
@@ -409,21 +454,30 @@ def generateSound(inputString):
                 audio, out_path = voice_conversion()
 
             write(out_path, hps_ms.data.sampling_rate, audio)
+
             #print('Successfully saved!')
             #ask_if_continue()
 
 if __name__ == "__main__":
-    session_token = get_token()
-    api = ChatGPT(session_token)
+    session_token = "你的api"
+    openai.api_key = str(session_token)
+    #session_token = get_token()
+    #api = ChatGPT(session_token)
     print(idmessage)
     peaker_id = input()
     while True:
-        voice = voice_input()
-        resp = api.send_message(voice)
-        answer = resp["message"].replace('\n','')
+        question = voice_input()
+        #resp = api.send_message(question)
+        answer = chatgpt(question).replace('\n','')
         print("ChatGPT:")
         print(answer)
-        generateSound("[ZH]"+answer+"[ZH]")
-        PlaySound(r'.\output.wav', flags=0)
-        voice = ""
-    
+        answerG = answer
+        answerG = "[ZH]" + answer + "[ZH]"
+        with open(os.path.join('.', 'answer.txt'), 'w', encoding='utf-8') as f:
+            f.write(answerG)
+        # 将文本读取为字符串
+        with open(os.path.join('.', 'answer.txt'), 'r', encoding='utf-8') as f:
+            text = f.read()
+        # 使用generateSound函数生成语音
+        generateSound(text)
+        playSound()
